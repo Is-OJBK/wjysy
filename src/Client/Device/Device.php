@@ -36,19 +36,4 @@ class Device
         }
         return new Add($response);
     }
-
-    public function list($pageStart, $pageSize)
-    {
-        $url = ApiUrl::LIST;
-        $response = NetWork::postJson($url, [
-            'accessToken' => $this->ys7->accessToken()->getToken(),
-            'pageStart' => $pageStart,
-            'pageSize' => $pageSize
-        ]);
-        $ex = Exception::hasException($response);
-        if ($ex) {
-            throw $ex;
-        }
-        return $response;
-    }
 }
