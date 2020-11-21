@@ -1,0 +1,26 @@
+{
+  "name": "wanjing/ys7",
+  "description": "万鲸萤石云sdk",
+  "type": "1",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "ext-swoole": "^4.4.6",
+    "easyswoole/spl": ">=1.3.7.",
+    "easyswoole/http-client": "^1.0"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "唐懿德",
+      "email": "1551778289@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "WanJing\\Ys7\\": "src/"
+    }
+  }
+}
