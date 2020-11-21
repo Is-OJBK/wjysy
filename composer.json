@@ -17,7 +17,7 @@
       "email": "1551778289@qq.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "1.0",
   "autoload": {
     "psr-4": {
       "WanJing\\Ys7\\": "src/"
