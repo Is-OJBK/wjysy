@@ -22,18 +22,4 @@ class Ys7Base
     {
         return $this->ys7;
     }
-
-//    /**
-//     * @param array $response
-//     * @return mixed
-//     * @throws OfficialAccountError
-//     */
-//    protected function hasException(array $response)
-//    {
-//        $ex = OfficialAccountError::hasException($response);
-//        if ($ex) {
-//            throw $ex;
-//        }
-//        return $response;
-//    }
 }

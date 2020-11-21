@@ -9,6 +9,7 @@
 namespace WanJing\Ys7\Client\Device;
 
 use WanJing\Ys7\Bean\Device\Add;
+use WanJing\Ys7\Exception\Exception;
 use WanJing\Ys7\Utility\NetWork;
 use WanJing\Ys7\Ys7;
 
@@ -29,6 +30,10 @@ class Device
             'deviceSerial' => $deviceSerial,
             'validateCode' => $validateCode
         ]);
+        $ex = Exception::hasException($response);
+        if ($ex) {
+            throw $ex;
+        }
         return new Add($response);
     }
 
@@ -40,6 +45,10 @@ class Device
             'pageStart' => $pageStart,
             'pageSize' => $pageSize
         ]);
+        $ex = Exception::hasException($response);
+        if ($ex) {
+            throw $ex;
+        }
         return $response;
     }
 }

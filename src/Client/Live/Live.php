@@ -8,7 +8,7 @@
 
 namespace WanJing\Ys7\Client\Live;
 
-use WanJing\Ys7\Bean\Device\Add;
+use WanJing\Ys7\Exception\Exception;
 use WanJing\Ys7\Utility\NetWork;
 use WanJing\Ys7\Ys7;
 
@@ -29,7 +29,10 @@ class Live
             'pageStart' => $pageStart,
             'pageSize' => $pageSize
         ]);
+        $ex = Exception::hasException($response);
+        if ($ex) {
+            throw $ex;
+        }
         return $response;
-        return new Add($response);
     }
 }
