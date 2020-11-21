@@ -11,6 +11,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectId" id="1kaTsLO0ynTmPHLmoOpnuONyQxf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605937907955</updated>
-      <workItem from="1605937909004" duration="1681000" />
+      <workItem from="1605937909004" duration="2760000" />
     </task>
     <servers />
   </component>
@@ -46,10 +47,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="127" key="SettingsEditor" timestamp="1605939103427">
+    <state x="349" y="127" key="SettingsEditor" timestamp="1605940591388">
       <screen x="0" y="25" width="1680" height="933" />
     </state>
-    <state x="349" y="127" key="SettingsEditor/0.25.1680.933@0.25.1680.933" timestamp="1605939103427" />
+    <state x="349" y="127" key="SettingsEditor/0.25.1680.933@0.25.1680.933" timestamp="1605940591388" />
     <state x="541" y="217" width="597" height="548" key="find.popup" timestamp="1605938298765">
       <screen x="0" y="25" width="1680" height="933" />
     </state>

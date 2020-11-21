@@ -4,65 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2573e9ad05b3d718b675f346d153ae3",
+    "content-hash": "2e0ca1933d990728bf6079602606105f",
     "packages": [
-        {
-            "name": "easyswoole/component",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easy-swoole/component.git",
-                "reference": "47d6315148a332fd8fffe9b558b21a948bb35f3d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/component/zipball/47d6315148a332fd8fffe9b558b21a948bb35f3d",
-                "reference": "47d6315148a332fd8fffe9b558b21a948bb35f3d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "easyswoole/spl": "^1.1",
-                "easyswoole/utility": "^1.0",
-                "ext-swoole": "^4.4.2",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "easyswoole/phpunit": "^1.0",
-                "easyswoole/swoole-ide-helper": "^1.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasySwoole\\Component\\": "src/",
-                    "EasySwoole\\Component\\Tests\\": "Tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "YF",
-                    "email": "291323003@qq.com"
-                }
-            ],
-            "description": "easyswoole component",
-            "homepage": "https://www.easyswoole.com/",
-            "keywords": [
-                "async",
-                "easyswoole",
-                "framework",
-                "swoole"
-            ],
-            "time": "2020-08-31T02:10:22+00:00"
-        },
         {
             "name": "easyswoole/http-client",
             "version": "1.4.4",
@@ -116,6 +59,10 @@
                 "framework",
                 "swoole"
             ],
+            "support": {
+                "issues": "https://github.com/easy-swoole/http-client/issues",
+                "source": "https://github.com/easy-swoole/http-client/tree/1.4.4"
+            },
             "time": "2020-11-05T05:47:46+00:00"
         },
         {
@@ -171,51 +118,11 @@
                 "framework",
                 "swoole"
             ],
+            "support": {
+                "issues": "https://github.com/easy-swoole/spl/issues",
+                "source": "https://github.com/easy-swoole/spl/tree/master"
+            },
             "time": "2020-04-05T15:50:30+00:00"
-        },
-        {
-            "name": "easyswoole/utility",
-            "version": "1.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easy-swoole/utility.git",
-                "reference": "109f4d86906d9610e2feedfcb04a8ecb0e5dba8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easy-swoole/utility/zipball/109f4d86906d9610e2feedfcb04a8ecb0e5dba8b",
-                "reference": "109f4d86906d9610e2feedfcb04a8ecb0e5dba8b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-openssl": "*",
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasySwoole\\Utility\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "evalor",
-                    "email": "mipone@foxmail.com"
-                }
-            ],
-            "description": "easyswoole extension tool library",
-            "time": "2020-05-19T03:06:24+00:00"
         }
     ],
     "packages-dev": [],
@@ -230,5 +137,6 @@
         "ext-openssl": "*",
         "ext-swoole": "^4.4.6"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
